@@ -2,13 +2,10 @@
 
 import React from 'react';
 
-import Root from './src/components/Root';
 import Layout from './src/components/Layout';
 import './src/styles/reset.css';
 import './src/styles/global.css';
 import './src/styles/fonts.css';
-
-const wrapRootElement = Root;
 
 const wrapPageElement = ({ element: page }) => {
   return <Layout>{page}</Layout>;
@@ -16,4 +13,4 @@ const wrapPageElement = ({ element: page }) => {
 
 export default {};
 
-export { wrapRootElement, wrapPageElement };
+export { wrapPageElement };

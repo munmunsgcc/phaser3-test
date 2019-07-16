@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import shortid from 'shortid';
 import { Link } from 'gatsby';
 
+import Game from './Game';
 import $ from '../styles/global';
 
 /**
@@ -121,5 +122,6 @@ export default {
   addKeys,
   parseStringToGatsbyLink,
   parseTimeToDayMonth,
+  Game,
   parseTimeToDayName,
 };
